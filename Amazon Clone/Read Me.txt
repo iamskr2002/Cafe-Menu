@@ -1,0 +1,20 @@
+***************************** Amazon Clone *****************************
+
+
+The clone of Amazon was created with the intention of learning and 
+educational purpose. The rights and the content entirely belongs to
+the Amazon and it's corporation. This project includes the Front-end
+part of the Amazon with no JavaScript(JS) in it. The project is the
+copy of the global person of the Amazon.com.
+
+Project Details :
+
+Name: Amazon Clone.
+Date: 28th June, 2023
+Languages: HTML & CSS.
+Duration: 3 Days.
+
+
+Author;
+Subham Kr. Raya
+roysubham687@gmail.com
