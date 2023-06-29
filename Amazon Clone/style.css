@@ -225,6 +225,11 @@ ul {
     margin-top: 20px;
 }
 
+ul p {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
 ul a {
     display: block;
     font-size: 0.85rem;
