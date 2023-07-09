@@ -38,17 +38,19 @@
     color: #CCCCCC;
     font-size: 0.75 rem;
     margin-left: 15px;
+    cursor: pointer;
 }
 
 .add-sec {
     font-size: 2 rem;
     margin-left: 3px;
-
+    cursor: pointer;
 }
 
 .add-icon {
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .nav-search {
@@ -94,20 +96,24 @@
 
 span {
     font-size: 0.7rem;
+    cursor: pointer;
 }
 
 .nav-second {
     font-size: 0.85rem;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .nav-cart i {
     font-size: 30px;
+    cursor: pointer;
 }
 
 .nav-cart {
     font-size: 0.85rem;
     font-weight: 700;
+    cursor: pointer;
 }
 
 /** Panel **/
@@ -119,6 +125,7 @@ span {
     color: white;
     align-items: center;
     justify-content: space-evenly;
+    cursor: pointer;
 }
 
 .panel-options p {
@@ -161,6 +168,7 @@ span {
 
 .hero-msg a {
     color: #007185;
+    cursor: pointer;
 }
 
 /** Shopping box **/
@@ -177,7 +185,9 @@ span {
     width: 23%;
     background-color: white;
     padding: 20px 0px 15px;
-    margin-top: 15px; 
+    margin-top: 15px;
+    overflow: hidden;
+    transition: transform 0.5s ease;
 }
 
 .box-img {
@@ -185,7 +195,14 @@ span {
     background-size: cover;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    cursor: pointer;
 }
+
+.box:hover {
+    transform: scale(1.2);
+}
+
+
 
 .box-content {
     margin-left: 1rem;
@@ -194,6 +211,7 @@ span {
 
 .box-content p {
     color: #007185;
+    cursor: pointer;
 }
 
 
@@ -211,6 +229,7 @@ footer {
     justify-content: center;
     align-items: center;
     font-size: 0.95rem;
+    cursor: pointer;
 }
 
 .footer-panel2 {
@@ -228,6 +247,7 @@ ul {
 ul p {
     font-size: 1.2rem;
     font-weight: 600;
+    cursor: pointer;
 }
 
 ul a {
@@ -235,6 +255,7 @@ ul a {
     font-size: 0.85rem;
     margin-top: 10px;
     color: #dddddd;
+    cursor: pointer;
 }
 
 .footer-panel3 {
