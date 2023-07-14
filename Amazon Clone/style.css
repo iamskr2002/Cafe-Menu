@@ -26,6 +26,7 @@
 }
 
 .border {
+    padding: 4.8px;
     border: 1.5px solid transparent;
 }
 
