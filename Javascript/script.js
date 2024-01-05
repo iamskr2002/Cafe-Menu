@@ -1,7 +1,6 @@
-let fullNam = prompt("Full Name: ");
+function myName(nam){
+    console.log(nam);
+}
 
-fullNam  = fullNam.toLowerCase();
-let a = fullNam.length;
-fullNam = fullNam.replace(" ", "");
-
-console.log("Username is: @"+fullNam+a);
+let fullName = 'subham';
+myName(fullName);
